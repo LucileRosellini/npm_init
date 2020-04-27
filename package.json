@@ -1,0 +1,16 @@
+{
+  "name": "NPM_exo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "convertimg": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "imagemin": "^7.0.1",
+    "imagemin-pngquant": "^8.0.0"
+  }
+}
