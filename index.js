@@ -2,7 +2,7 @@ const imagemin = require('imagemin');
 const imageminPngquant = require('imagemin-pngquant');
 
 imagemin(['images/input/*.png'], {
-	destination: 'imagesi/output',
+	destination: 'images/output',
 	plugins: [
 		imageminPngquant({
 			quality:[0,0.05]
